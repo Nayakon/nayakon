@@ -1,0 +1,12 @@
+
+def _add(a, b):
+    pass
+
+def _ substract(a, b):
+     pass
+
+def _ multiply(a, b):
+    pass
+
+def _ divide(a, b):
+    pass
