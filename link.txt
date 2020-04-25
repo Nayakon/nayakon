@@ -9,4 +9,4 @@ def _ multiply(a, b):
     pass
 
 def _ divide(a, b):
-    pass
+    print(a/b)
