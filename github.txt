@@ -1,1 +1,2 @@
+git.py
 /home/kone/Desktop/https:\\github.com\progit\progit2\releases\download\2.1.223\progit.epub.desktop
