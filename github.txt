@@ -1,2 +1,1 @@
-link.py
-This is github link
+/home/kone/Desktop/https:\\github.com\progit\progit2\releases\download\2.1.223\progit.epub.desktop
