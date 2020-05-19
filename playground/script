@@ -1,0 +1,8 @@
+#!/bin/bash
+
+echo "Who am I $NAME?"
+read NAME
+echo "How are doing today $NAME"
+read remark
+echo "Same as me too $NAME,thank you for you hospitality"
+

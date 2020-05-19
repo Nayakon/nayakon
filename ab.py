@@ -1,18 +1,19 @@
 """
-this example shows how to open a file for text write,read
+this example shows how to open a file for text,write and read
 and shows how to parse our data into text and back from text
 """
-a,b = 0,0
-FILENAME = "data.txt"
+x,y = 0,0
+FILENAME = "big_data.txt"
 
 while 1:
 
-    #print("a = {}; b = {}".format(a,b))
-    print("a = %d; b = %d" % (a,b))
+   # #print("x = {}; y = {}".format(x,y))
+    print("x = %d; y = %d" % (x,y))
 
     print("""
-    set (A)
-    set (B)
+            MENU X&Y
+    set (X)
+    set (Y)
     (S)ave
     (L)oad
     (Q)uit
@@ -21,15 +22,15 @@ while 1:
 
     option = input("Option: ").upper()
 
-    if option == "A":
-        a = int(input("enter new value for A:"))
+    if option == "X":
+        x = int(input("enter new value for X:"))
 
-    elif option == "B":
-        b = int(input("enter new value for B:"))
+    elif option == "Y":
+        y = int(input("enter new value for Y:"))
 
     elif option == "S":
         f = open(FILENAME, "w")
-        f.write("{}\n{}\n".format(a,b))
+        f.write("{}\n{}\n".format(x,y))
         f.close()
 
     elif option == "L":
